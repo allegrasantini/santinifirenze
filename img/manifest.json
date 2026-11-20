@@ -1,0 +1,149 @@
+{
+  "hero": "img/web/hero.jpg",
+  "items": [
+    {
+      "file": "img/web/01-3311-latte.jpg",
+      "model": "3311",
+      "color": "Latte",
+      "raw_model": "3311",
+      "raw_color": "D37 LATTE",
+      "hero": false,
+      "bytes": 106359
+    },
+    {
+      "file": "img/web/02-5254-nero.jpg",
+      "model": "5254",
+      "color": "Nero",
+      "raw_model": "5254",
+      "raw_color": "P218 NERO",
+      "hero": false,
+      "bytes": 92510
+    },
+    {
+      "file": "img/web/03-aradia-marrone.jpg",
+      "model": "Aradia",
+      "color": "Marrone",
+      "raw_model": "ARADIA",
+      "raw_color": "L131 MARRONE",
+      "hero": false,
+      "bytes": 87954
+    },
+    {
+      "file": "img/web/04-aveline-latte.jpg",
+      "model": "Aveline",
+      "color": "Latte",
+      "raw_model": "AVELINE",
+      "raw_color": "S237 LATTE",
+      "hero": false,
+      "bytes": 94913
+    },
+    {
+      "file": "img/web/05-avril-cuoio-scuro.jpg",
+      "model": "Avril",
+      "color": "Cuoio Scuro",
+      "raw_model": "AVRIL",
+      "raw_color": "D17 CUOIO SCURO",
+      "hero": false,
+      "bytes": 100177
+    },
+    {
+      "file": "img/web/06-caroa-nero.jpg",
+      "model": "Caroa",
+      "color": "Nero",
+      "raw_model": "CAROA",
+      "raw_color": "NERO D28",
+      "hero": false,
+      "bytes": 273708
+    },
+    {
+      "file": "img/web/07-connie-nero.jpg",
+      "model": "Connie",
+      "color": "Nero",
+      "raw_model": "CONNIE",
+      "raw_color": "D28 NERO",
+      "hero": false,
+      "bytes": 117197
+    },
+    {
+      "file": "img/web/08-elan-moka.jpg",
+      "model": "Elan",
+      "color": "Moka",
+      "raw_model": "ELAN",
+      "raw_color": "D523 MOKA",
+      "hero": false,
+      "bytes": 106886
+    },
+    {
+      "file": "img/web/09-elior-sc523-moka.jpg",
+      "model": "Elior",
+      "color": "Sc523 Moka",
+      "raw_model": "ELIOR",
+      "raw_color": "SC523 MOKA",
+      "hero": false,
+      "bytes": 108846
+    },
+    {
+      "file": "img/web/10-jacintha-marrone.jpg",
+      "model": "Jacintha",
+      "color": "Marrone",
+      "raw_model": "JACINTHA",
+      "raw_color": "D21 MARRONE",
+      "hero": false,
+      "bytes": 126816
+    },
+    {
+      "file": "img/web/11-maude-taupe-chiaro.jpg",
+      "model": "Maude",
+      "color": "Taupe Chiaro",
+      "raw_model": "MAUDE",
+      "raw_color": "L113 TAUPE CHIARO",
+      "hero": false,
+      "bytes": 106362
+    },
+    {
+      "file": "img/web/12-nina-cappuccino.jpg",
+      "model": "Nina",
+      "color": "Cappuccino",
+      "raw_model": "NINA",
+      "raw_color": "D05 CAPPUCCINO",
+      "hero": false,
+      "bytes": 104438
+    },
+    {
+      "file": "img/web/13-noa-nero.jpg",
+      "model": "Noa",
+      "color": "Nero",
+      "raw_model": "NOA",
+      "raw_color": "D28 NERO",
+      "hero": true,
+      "bytes": 110494
+    },
+    {
+      "file": "img/web/14-rosea-nero.jpg",
+      "model": "Rosea",
+      "color": "Nero",
+      "raw_model": "ROSEA",
+      "raw_color": "NERO D28",
+      "hero": false,
+      "bytes": 235375
+    },
+    {
+      "file": "img/web/15-shell-sc28-nero.jpg",
+      "model": "Shell",
+      "color": "Sc28 Nero",
+      "raw_model": "SHELL",
+      "raw_color": "SC28 NERO",
+      "hero": false,
+      "bytes": 98599
+    },
+    {
+      "file": "img/web/16-stone-blu-notte.jpg",
+      "model": "Stone",
+      "color": "Blu Notte",
+      "raw_model": "STONE",
+      "raw_color": "BLU NOTTE D26",
+      "hero": false,
+      "bytes": 284626
+    }
+  ]
+}
