@@ -9,6 +9,29 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
+  <style>
+    .elior-hero .hero__media img { object-position: 70% 55%; }
+    .elior-hero .hero__media::after { background: linear-gradient(90deg, #120d08aa, transparent 62%); }
+    .elior-hero .hero__copy { width: min(100% - 3rem, 1180px); max-width: none; }
+    .elior-campaign, .elior-selection { padding-block: clamp(2rem, 6vw, 5rem); }
+    .elior-heading { display:flex; align-items:baseline; justify-content:space-between; flex-wrap:wrap; gap:1rem; margin-bottom:1.25rem; }
+    .elior-heading h2 { font: 400 clamp(2rem, 4vw, 3.2rem)/1.1 'Cormorant Garamond', Georgia, serif; }
+    .elior-heading a { text-decoration: underline; text-underline-offset: .25em; }
+    .elior-photos { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:.75rem; max-width:1180px; margin-inline:auto; padding-inline:1rem; }
+    .elior-photos img { display:block; width:100%; height:auto; }
+    .elior-cards { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:1rem; }
+    .elior-cards img { display:block; width:100%; aspect-ratio:4/5; object-fit:contain; background:#fff; }
+    .elior-cards span { display:block; padding-block:.65rem; }
+    .elior-cards small { color:var(--muted); }
+    #elior { scroll-margin-top:3rem; }
+    @media (max-width: 640px) {
+      .elior-hero .hero__media img { object-position:75% 55%; }
+      .elior-hero .hero__media::after { background:linear-gradient(0deg,#120d08bb,transparent 50%); }
+      .elior-hero .hero__copy { padding-bottom:2.25rem; }
+      .elior-photos { grid-template-columns:1fr; }
+      .elior-cards { grid-template-columns:repeat(2,minmax(0,1fr)); }
+    }
+  </style>
 </head>
 <body>
 
@@ -23,22 +46,44 @@
   </div>
 </header>
 
-<section class="hero" aria-label="In evidenza">
+<section class="hero elior-hero" aria-label="Elior Moka in evidenza">
   <div class="hero__media">
-    <img src="img/web/noa-firenze.jpg" alt="Borsa beige indossata sotto un arco a Firenze" width="1122" height="1402" fetchpriority="high" style="object-position: center 43%">
+    <img src="img/web/elior-moka-editoriale.jpg" alt="Elior Moka indossata sotto un portico fiorentino" width="1536" height="1024" fetchpriority="high">
   </div>
   <div class="wrap hero__copy">
-    <p class="brand">Santini Firenze<span>Vera pelle</span></p>
-    <h1>Pelle fiorentina, forma contemporanea</h1>
-    <p>Borse e accessori nati dalla scuola di pelletteria fiorentina. Questa è la vetrina della collezione.</p>
+    <h1>Elior a Firenze</h1>
     <div class="cta-row">
-      <a class="btn" href="#collezione">Guarda la collezione</a>
-      <a class="btn" href="contatti.html">Contatti</a>
+      <a class="btn" href="#elior">Scopri Elior</a>
     </div>
   </div>
 </section>
 
+<section class="elior-campaign" id="elior" aria-labelledby="elior-title">
+  <div class="wrap elior-heading">
+    <h2 id="elior-title">Elior Moka</h2>
+    <a href="contatti.html">Chiedi disponibilità</a>
+  </div>
+  <div class="elior-photos">
+    <img src="img/web/elior-moka-originale.jpg" alt="Elior Moka vista di fronte" width="1280" height="1600" loading="lazy">
+    <img src="img/web/elior-moka-dettaglio.jpg" alt="Primo piano della pelle moka e dell’anello dorato di Elior" width="1280" height="1600" loading="lazy">
+  </div>
+</section>
+
+<section class="wrap elior-selection" aria-labelledby="elior-selection-title">
+  <div class="elior-heading">
+    <h2 id="elior-selection-title">Dalla collezione</h2>
+    <a href="#collezione">Vedi tutta la collezione</a>
+  </div>
+  <div class="elior-cards">
+    <a href="#elior"><img src="img/web/elior-moka-originale.jpg" alt="" loading="lazy"><span>Elior <small>Moka</small></span></a>
+    <a href="contatti.html"><img src="img/web/13-noa-nero.jpg" alt="" loading="lazy"><span>Noa <small>Nero</small></span></a>
+    <a href="contatti.html"><img src="img/web/04-aveline-latte.jpg" alt="" loading="lazy"><span>Aveline <small>Latte</small></span></a>
+    <a href="contatti.html"><img src="img/web/06-caroa-nero.jpg" alt="" loading="lazy"><span>Caroa <small>Nero</small></span></a>
+  </div>
+</section>
+
 <section aria-label="Lifestyle Santini Firenze" style="display:grid;grid-template-columns:minmax(0,1fr);gap:1rem;max-width:52rem;margin-inline:auto;padding:1rem;background:#f4f4f2">
+  <img src="img/web/noa-firenze.jpg" alt="Borsa beige indossata sotto un arco a Firenze" width="1122" height="1402" loading="lazy" style="display:block;width:100%;height:auto">
   <img src="img/web/noa-dettaglio-posa-naturale.jpg" alt="Dettaglio della pelle beige e del manico della borsa" width="1122" height="1402" loading="lazy" style="display:block;width:100%;height:auto">
   <img id="foto-di-profilo" src="img/web/noa-indossata-gomito-frontale.jpg" alt="Primo piano della borsa beige indossata a spalla con camicia in jeans" width="1122" height="1402" style="scroll-margin-top:5rem;display:block;width:100%;height:auto">
 </section>
